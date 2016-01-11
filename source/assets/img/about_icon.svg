@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>abouticon + Oval 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="White-blog" sketch:type="MSArtboardGroup" transform="translate(-689.000000, -2144.000000)">
+            <g id="icons-copy-2" sketch:type="MSLayerGroup" transform="translate(597.000000, 2144.000000)">
+                <g id="abouticon-+-Oval-5" transform="translate(92.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <ellipse id="abouticon" fill="#C7D0D3" cx="31" cy="30.9396785" rx="31" ry="30.9396785"></ellipse>
+                    <path d="M35.1266658,25.9532211 C39.8628017,33.434855 44.7633792,49.9027073 40.1493664,49.9027073 L31.6510336,49.9027073 L22.3283039,49.9027073 C16.8491653,49.9027073 22.1143184,33.7017037 27.0878117,26.1375853 C24.7244923,24.7418913 23.1311066,22.1076058 23.1311066,19.0877855 C23.1311066,14.6092036 26.635717,10.9785956 30.9588731,10.9785956 C35.2820292,10.9785956 38.7866396,14.6092036 38.7866396,19.0877855 C38.7866396,21.9794198 37.3256557,24.5175551 35.1266658,25.9532211 Z" id="Oval-5" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

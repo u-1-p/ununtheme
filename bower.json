@@ -1,0 +1,27 @@
+{
+  "name": "ununtheme",
+  "homepage": "https://github.com/u-1-p/unun-tumblr",
+  "authors": [
+    "Yuu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "~0.13.3"
+  },
+  "overrides": {
+    "react": {
+      "main": "react-with-addons.min.js"
+    },
+    "jquery": {
+      "main": "dist/jquery.min.js"
+    }
+  }
+}

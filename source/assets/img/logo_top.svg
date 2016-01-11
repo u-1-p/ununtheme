@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="511px" height="189px" viewBox="0 0 511 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>we take photographie + Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="top" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="White-top" sketch:type="MSArtboardGroup" transform="translate(-465.000000, -398.000000)">
+            <g id="we-take-photographie-+-Page-1" sketch:type="MSLayerGroup" transform="translate(465.000000, 397.000000)">
+                <text id="we-take-photographie" fill="white" filter="url(#filter-1)" sketch:type="MSTextLayer" font-family="Futura" font-size="26" font-weight="420" sketch:alignment="middle" line-spacing="36" letter-spacing="1.20000005">
+                    <tspan x="103.038769" y="174" fill="#FFFFFF">we take photographies.</tspan>
+                </text>
+                <g id="Page-1" sketch:type="MSShapeGroup">
+                    <g id="Group-9" transform="translate(0.000000, 24.000000)" fill-opacity="0.720646513" fill="#5C5A5A">
+                        <path d="M86.0434525,0.2792 L103.192772,103.6712 L28.2447794,103.6712 L11.0974486,0.2792 L0.0304214008,0.2792 L17.1777521,103.6712 L17.225472,103.9552 L18.4761296,111.4912 L18.9990595,114.6412 L105.010102,114.6412 L106.065904,121.0012 L108.821725,121.0012 L107.765923,114.6412 L116.625908,114.6412 L114.806589,103.6712 L105.946604,103.6712 L88.7992735,0.2792 L86.0434525,0.2792 Z" id="Fill-1"></path>
+                        <path d="M125.881172,0.2792 L127.340604,9.0732 L118.480619,9.0732 L120.299938,20.0432 L129.159923,20.0432 L145.905611,121.0012 L148.657456,121.0012 L131.913755,20.0432 L206.861747,20.0432 L223.605448,121.0012 L234.672475,121.0012 L217.926786,20.0432 L217.020109,14.5672 L216.107467,9.0732 L130.094436,9.0732 L128.635004,0.2792 L125.881172,0.2792 Z" id="Fill-3"></path>
+                        <path d="M332.755644,1.496 L349.503321,102.472 L274.555329,102.472 L257.807652,1.496 L246.760508,1.496 L263.508185,102.472 L264.414862,107.948 L265.327504,113.44 L351.320652,113.44 L352.778096,122.218 L355.549823,122.218 L354.094368,113.44 L362.936458,113.44 L361.117139,102.472 L352.273061,102.472 L335.525384,1.496 L332.755644,1.496 Z" id="Fill-5"></path>
+                        <path d="M372.593363,1.496 L373.653142,7.876 L364.809064,7.876 L366.628383,18.844 L375.470472,18.844 L392.615815,122.218 L395.387542,122.218 L378.2422,18.844 L453.170309,18.844 L470.31764,122.218 L481.384667,122.218 L464.064352,17.796 L463.730313,15.784 L463.4599,14.144 L462.418017,7.876 L376.422881,7.876 L375.365091,1.496 L372.593363,1.496 Z" id="Fill-7"></path>
+                    </g>
+                    <g id="Group-18" transform="translate(27.836576, 0.000000)" fill="#FEFEFE">
+                        <path d="M87.6977405,1.1132 L104.84706,104.5052 L29.8990673,104.5052 L12.7517366,1.1132 L1.68470934,1.1132 L18.8320401,104.5052 L18.9970712,105.4952 L19.9176665,111.0472 L20.6533475,115.4752 L106.66439,115.4752 L107.720192,121.8372 L110.476013,121.8372 L109.420211,115.4752 L118.280196,115.4752 L116.460877,104.5052 L107.600892,104.5052 L90.4535615,1.1132 L87.6977405,1.1132 Z" id="Fill-10"></path>
+                        <path d="M127.519354,1.1132 L128.978786,9.9092 L120.134708,9.9092 L121.954027,20.8772 L130.796117,20.8772 L147.541805,121.8372 L150.311545,121.8372 L133.567844,20.8772 L208.513848,20.8772 L225.259537,121.8372 L236.310658,121.8372 L219.564969,20.8772 L218.658292,15.4012 L217.747638,9.9092 L131.748525,9.9092 L130.289093,1.1132 L127.519354,1.1132 Z" id="Fill-12"></path>
+                        <path d="M334.413511,2.3462 L351.157212,103.3042 L276.209219,103.3042 L259.463531,2.3462 L248.416387,2.3462 L265.162075,103.3042 L266.068753,108.7822 L266.981395,114.2742 L352.976531,114.2742 L354.431986,123.0542 L357.203714,123.0542 L355.748258,114.2742 L364.592336,114.2742 L362.773017,103.3042 L353.926951,103.3042 L337.181262,2.3462 L334.413511,2.3462 Z" id="Fill-14"></path>
+                        <path d="M374.25123,2.3462 L375.307032,8.7102 L366.462954,8.7102 L368.282273,19.6762 L377.124363,19.6762 L394.271693,123.0542 L397.025526,123.0542 L379.880184,19.6762 L454.824199,19.6762 L471.97153,123.0542 L483.040546,123.0542 L465.891226,19.6762 L465.384203,16.6162 L465.306658,16.1462 L464.073896,8.7102 L378.060865,8.7102 L377.005063,2.3462 L374.25123,2.3462 Z" id="Fill-16"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
