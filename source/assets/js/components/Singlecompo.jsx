@@ -101,7 +101,7 @@ module.exports = React.createClass({
     if ( article.type === 'text' ) {
       return (
         <DocumentTitle title={`${article.title} | unun`}>
-          <article className='article_text'>
+          <article className='article__text'>
             <hr className='article_line' />
             <header className="article_header">
               <h1 className="article_title">{article.title}</h1>
@@ -141,21 +141,23 @@ module.exports = React.createClass({
       return (
         <DocumentTitle title={`${moment.unix(new Date(article.timestamp)).format('YYYY/M/D')} | unun`}>
           
-          <article className='article_text'>
-            <hr />
+          <article className='article__photo'>
+            <hr className='article_line' />
             <header className="article_header">
               <h1 className="article_title">{article.title}</h1>
-              <div className="article_info">
-                <span className="article_date">{moment.unix(new Date(article.timestamp)).format('YYYY.M.D')}</span>
-              </div>
             </header>
             <div className="article_photo">{articlePhotos}</div>
-            <div className="article_caption" dangerouslySetInnerHTML={{__html: article.caption}} />
-            <div className='article_namebox'><p className='article_name'>by {article.tags[nametags-1]}</p></div>
-            <ul className="article_tag">{articleTags}</ul>
-            <div className="article_reblog">
-              <div className="article_notes">{article.note_count} Actions</div>
-              <a href={`https://www.tumblr.com/reblog/${article.id}/${article.reblog_key}`} target="_blank">Reblog</a>
+            <div className="article_info">
+              <span className="article_date">post : {moment.unix(new Date(article.timestamp)).format('YYYY.M.D')}</span>
+            </div>
+            <div className="article_body_text">
+              <div className="article_caption" dangerouslySetInnerHTML={{__html: article.caption}} />
+              <div className='article_namebox'><p className='article_name'>by {article.tags[nametags-1]}</p></div>
+              <ul className="article_tag">{articleTags}</ul>
+              <div className="article_reblog">
+                <div className="article_notes">{article.note_count} Actions</div>
+                <a href={`https://www.tumblr.com/reblog/${article.id}/${article.reblog_key}`} target="_blank">Reblog</a>
+              </div>
             </div>
             <hr className='article_line' />
             <div className="article_back">

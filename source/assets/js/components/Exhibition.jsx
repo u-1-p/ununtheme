@@ -124,9 +124,8 @@ module.exports = React.createClass({
     return (
       <DocumentTitle title={`exhibition | unun`}>
         <article className='Exhi_list'>
-          <div className='header_top'>
+          <div className='header_exhi_bkg'>
             <Header />
-            <div className='header_img'><img src='assets/source/img/exhi_top.jpg'/></div>  
           </div>
           <h1 className='page_title'>exhibition schedule</h1>
           <hr className='page_line' />
@@ -135,7 +134,7 @@ module.exports = React.createClass({
             {articleNodes}
           </div>
           <div className="ExhiList__more" ref='more'>
-            <div onClick={this.nextPage} style={{cursor:'pointer'}}><img src='assets/source/img/morebtn.svg'/></div>
+            <div onClick={this.nextPage} style={{cursor:'pointer'}}><img src='http://static.tumblr.com/27cbjg2/mWLo17bcb/morebtn.svg'/></div>
           </div>
           <hr className='page_line' />
         </article>

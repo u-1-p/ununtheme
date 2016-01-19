@@ -19,12 +19,11 @@ module.exports = React.createClass({
           </Link>
         </div>
           <div className='PhotoList_iteminfo'>
-              <div className='PhotoList_itemDate'><span>{moment.unix(new Date(this.props.timestamp)).format('YYYY.M.D')}</span></div>
-                      <div className='PhotoList_itemcaption'>
+              <div className='PhotoList_itemcaption'>
                 <span dangerouslySetInnerHTML={{__html: this.props.caption}} />
               </div>
             
-            <ul className='PhotoList_itemTag'>by {this.props.tags[nametags-1]}</ul>
+            <span className='PhotoList_itemTag'>by {this.props.tags[nametags-1]}</span>
           </div>
       </article>
     );

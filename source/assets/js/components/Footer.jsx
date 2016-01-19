@@ -12,9 +12,9 @@ module.exports = React.createClass({
       <footer className='footer'>
         <div className='footer'>
           <ul>
-            <li><Link to={'/'}><img src='assets/source/img/home_icon.svg'/></Link></li>
-            <li><Link to={'/about'}><img src='assets/source/img/about_icon.svg'/></Link></li>
-            <li><a href='http://twitter.com/un_un_me'><img src='assets/source/img/twitter_icon.svg'/></a></li>
+            <li><Link to={'/'}><img src='http://static.tumblr.com/27cbjg2/xGho0bl0e/home_icon.svg'/></Link></li>
+            <li><Link to={'/about'}><img src='http://static.tumblr.com/27cbjg2/0Bjo0bl09/about_icon.svg'/></Link></li>
+            <li><a href='http://twitter.com/un_un_me'><img src='http://static.tumblr.com/27cbjg2/m1vo0bl11/twitter_icon.svg'/></a></li>
           </ul>
           <p>
           all photo by “unun” thanks for watching

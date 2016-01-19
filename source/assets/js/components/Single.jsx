@@ -20,11 +20,9 @@ module.exports = React.createClass({
   render: function(){
     return (
       <main className='content_index'>
-        <div className='header_other'>
+        <div className='header_single_bkg'>
           <Header />
-            <div className='header_other_img'><img src='assets/source/img/single_top.jpg'/></div>
         </div>
-
         <Singlecompo />
       </main>
     );

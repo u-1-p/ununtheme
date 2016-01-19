@@ -8,14 +8,15 @@ module.exports = React.createClass({
 
   render: function(){
     return (
-      <header className='header'>
-        <Link to={'/'}><img src='assets/source/img/logo_header.svg'/></Link>
+      <div className='header_listitem'>
+        <Link to={'/'}><img src='http://static.tumblr.com/27cbjg2/X3jo17b75/logo_header.svg
+'/></Link>
           <ul>
             <li><Link to={'/about'}>about</Link></li>
             <li><Link to={'/blog'}>blog</Link></li>
             <li><Link to={'/exhibition'}>exhibition</Link></li>
           </ul>
-      </header>
+      </div>
     );
   }
 });

@@ -118,9 +118,8 @@ module.exports = React.createClass({
     return (
       <DocumentTitle title={`blog | unun`}>
         <article className='Blog_list'>
-          <div className='header_other'>
+          <div className='header_blog_bkg'>
             <Header />
-            <div className='header_other_img'><img src='assets/source/img/blog_top.jpg'/></div>
           </div>
           <h1 className='page_title'>blog</h1>
           <hr className='page_line' />
@@ -128,7 +127,7 @@ module.exports = React.createClass({
             {articleNodes}
           </div>
           <div className="BlogList__more" ref='more'>
-            <div onClick={this.nextPage} style={{cursor:'pointer'}}><img src='assets/source/img/morebtn.svg'/></div>
+            <div onClick={this.nextPage} style={{cursor:'pointer'}}><img src='http://static.tumblr.com/27cbjg2/mWLo17bcb/morebtn.svg'/></div>
           </div>
           <hr className='page_line' />
         </article>

@@ -7,7 +7,7 @@ require('jquery');
 // tumblr api
 var tumblrUrl = config.tumblrUrl;
 var apiKey = config.apiKey;
-var limit = 2;
+var limit = 5;
 
 // components
 var PhotoListItem = require('./PhotoListItem');
@@ -126,7 +126,7 @@ module.exports = React.createClass({
         </div>
 
         <div className="photo_more" ref='more'>
-          <div onClick={this.nextPage} style={{cursor:'pointer'}}><img src='assets/source/img/morebtn.svg'/></div>
+          <div onClick={this.nextPage} style={{cursor:'pointer'}}><img src='http://static.tumblr.com/27cbjg2/mWLo17bcb/morebtn.svg'/></div>
         </div>
       </div>
     );

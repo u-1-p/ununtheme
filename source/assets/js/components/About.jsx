@@ -12,14 +12,13 @@ module.exports = React.createClass({
     return (
       <DocumentTitle title='about unun & us | unun'>
         <article className='about'>
-          <div className='header_other'>
+          <div className='header_about_bkg'>
             <Header />
-            <div className='header_other_img'><img src='aassets/source/img/about_top.jpg'/></div>
           </div>
           <div className='about_unun'>
-            <h1>about “unun”</h1>
-            <img src='assets/source/img/unun-Icon.gif'/>
-            <h2>"写真を使って何かしよう"</h2>
+            <img className="logo_about_text" src='http://static.tumblr.com/27cbjg2/Z8ko17bgb/unun_about_text.svg'/>
+            <img className="logo_anime" src='assets/img/unun_logo_anime.gif'/>
+            <img className="logo_text" src='http://static.tumblr.com/27cbjg2/EDfo17bbl/logo_text.svg'/>
             <div className='unun_text'>
               <p>
               そんな言葉をきっかけに始めたグループ。<br />
@@ -30,17 +29,17 @@ module.exports = React.createClass({
               </p>
             </div>
           </div>
-          <hr />
           <h1>about us</h1>
+          <hr className="about_line" />
           <div className='about_us'>
             
             <div className='about_yuu'>
+              <img src='assets/img/yuu_prof.png'/>              
               <h2>Yuu</h2>
-              <img src='https://pbs.twimg.com/profile_images/665913809719070721/9C9DQYsf.jpg'/>
               <p>
               滋賀生まれ滋賀育ち大阪通いの大学生。<br />
               Webが好きなデザインっぽいことをしてる人。<br />
-              一瞬を切り取って誰かに伝えられる写真に魅了されている。<br />
+              一瞬を切り取って伝えられる写真に魅了されています。<br />
               </p>
               <ul>
                 <li><a href='http://u-1-p.com/'>Portfolio</a></li>
@@ -50,8 +49,9 @@ module.exports = React.createClass({
               </ul>
             </div>
             <div className='about_nnm'>
+              <img src='assets/img/nnm_prof.png'/>
               <h2>nnm</h2>
-              <img src='https://pbs.twimg.com/profile_images/655152487838515200/bh4RK2BT.jpg'/>
+
               <p>
               大阪の大学に通うふつうの女の子。<br />
               ”美しい”ものがすきな、夢見がちなハタチです。<br />
@@ -65,6 +65,7 @@ module.exports = React.createClass({
               </ul>
             </div>
           </div>
+          <hr className="about_line" />
           <div className="article_back">
             <a href='/'>Back</a>
           </div>

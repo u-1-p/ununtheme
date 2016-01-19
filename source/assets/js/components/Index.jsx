@@ -23,10 +23,9 @@ module.exports = React.createClass({
       <main className='content_index'>
         <div className='header_top'>
           <Header />
-          <div className='header_img'><img src='assets/source/img/top_top.jpg' /></div>
           <div className='header_logo_text'>
-            <img src='assets/source/img/logo_top.svg' alt='logo we take photographies'/>
-          </div>assets/source/img/
+            <img src='http://static.tumblr.com/27cbjg2/FJco17b9p/logo_top.svg' alt='logo we take photographies'/>
+          </div>
         </div>
         <NewsList />
         <PhotoList />

@@ -1,23 +1,35 @@
-.article_text
+.article__text
   padding-top 100px
   margin 0 auto
-  width 100%
-  max-width 980px
+  width 97%
+  max-width 920px
   text-align center
-
   h1
     font-weight bold
     text-align left
     padding-bottom 0.5em 
   p
     line-height 1.7em
-    font-size 18px
     text-align left
   img
     margin 0 auto
-    display block
     width 100%
-    max-width 1068px
+
+.article__photo
+  padding-top 100px
+  margin 0 auto
+  text-align center
+  h1
+    font-weight bold
+    text-align left
+    padding-bottom 0.5em 
+  p
+    line-height 1.5em
+    text-align left
+  img
+    margin 0 auto
+    width 100% 
+
 
 .set
   padding-bottom 3%
@@ -43,46 +55,54 @@
     text-decoration none
     text-align center
     padding 8px 80px 10px
-    color $color_text
+    color $color_link
     border:0.1em solid $color_gold
+    letter-spacing 2px
   a:hover
     color $color_gold
     
-
 .article_namebox
   overflow hidden
   .article_name
     float left
-
+.article_notes
+  margin-bottom 0.2em 
 .article_reblog
   text-align left
   margin-bottom 50px
   a
-    color $color_text
+    color $color_gold
     text-decoration none
   a:hover
-    color $color_gold
+    color $color_link
+.article_notes
+  display none
   
 .article_tag
   font-size 0.7em
   text-align left
-  margin-bottom 0.3em
+  margin-bottom 0.8em
+  margin-top 1.8em
   ul,li
     display: inline
   li
     margin-right 0.5em
 .article_body
+  text-align left
+  letter-spacing 1.2
+  p
+    font-size 0.9em
+    line-height 2
   h1
     font-weight bold
     padding-bottom 0.4em
   h2
-    text-align left
     font-weight bold
     padding-bottom 0.3em
   hr
     border-color #C8B88A
     margin-top 0.5em
-    margin-bottom 0.3em
+    margin-bottom 0.4em
     width 20%
   a
     color $color_text
@@ -90,5 +110,9 @@
   a:hover
     color $color_gold
 
-
+.article_body_text
+  margin-left 3%
+.article_info
+  margin-right 3%
+  float right  
 
