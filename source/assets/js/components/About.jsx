@@ -17,7 +17,7 @@ module.exports = React.createClass({
           </div>
           <div className='about_unun'>
             <img className="logo_about_text" src='http://static.tumblr.com/27cbjg2/Z8ko17bgb/unun_about_text.svg'/>
-            <img className="logo_anime" src='assets/img/unun_logo_anime.gif'/>
+            <img className="logo_anime" src='https://raw.githubusercontent.com/u-1-p/ununtheme/master/source/assets/img/unun_logo_anime.gif'/>
             <img className="logo_text" src='http://static.tumblr.com/27cbjg2/EDfo17bbl/logo_text.svg'/>
             <div className='unun_text'>
               <p>
@@ -34,7 +34,7 @@ module.exports = React.createClass({
           <div className='about_us'>
             
             <div className='about_yuu'>
-              <img src='assets/img/yuu_prof.png'/>              
+              <img src='https://raw.githubusercontent.com/u-1-p/ununtheme/master/source/assets/img/yuu_prof.png'/>              
               <h2>Yuu</h2>
               <p>
               滋賀生まれ滋賀育ち大阪通いの大学生。<br />
@@ -49,7 +49,7 @@ module.exports = React.createClass({
               </ul>
             </div>
             <div className='about_nnm'>
-              <img src='assets/img/nnm_prof.png'/>
+              <img src='https://raw.githubusercontent.com/u-1-p/ununtheme/master/source/assets/img/nnm_prof.png'/>
               <h2>nnm</h2>
 
               <p>
