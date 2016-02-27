@@ -21,6 +21,7 @@ module.exports = React.createClass({
             <img className="logo_text" src='http://static.tumblr.com/27cbjg2/EDfo17bbl/logo_text.svg'/>
             <div className='unun_text'>
               <p>
+              "写真を使って何かしよう"<br />
               そんな言葉をきっかけに始めたグループ。<br />
               お互いに似ているようで似ていない。<br />
               でも、お互い“うんうん”と通じるところもある。<br />
